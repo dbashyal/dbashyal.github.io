@@ -8,7 +8,7 @@ if (query) {
 
 // Load readme content
 $.ajax({
-	url: "https://rawgit.com/dbashyal/Magento_PHP_Web_Developer/"+branch+"/readme.md",
+	url: "https://rawgit.com/dbashyal/Magento_PHP_Web_Developer/"+branch+"/README.md",
 	dataType: 'text',
 	success: function(data) {
 
