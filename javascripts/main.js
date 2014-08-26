@@ -7,6 +7,7 @@ if (query) {
 }
 
 // Load readme content
+/* @var $ jQuery */
 $.ajax({
 	url: "https://rawgit.com/dbashyal/Magento_PHP_Web_Developer/"+branch+"/README.md",
 	dataType: 'text',
@@ -17,6 +18,5 @@ $.ajax({
 
 		// Show html
 		$(".readme").html(converter.makeHtml(data));
-
 	}
 });
