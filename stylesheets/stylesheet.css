@@ -69,6 +69,7 @@ header {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   background: #337BCF;
   border-bottom: solid 1px #275da1;
+  min-height: 160px;
 }
 
 header h1 {
